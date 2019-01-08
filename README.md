@@ -1,2 +1,2 @@
 # sortingAlgorithms
-Collection of few sorting algorithms implemented in different languages
+Collection of a few sorting algorithms implemented in different languages
