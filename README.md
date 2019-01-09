@@ -1,7 +1,8 @@
 # sortingAlgorithms
 Collection of a few sorting algorithms implemented in different languages  
 
-# Working sorting methods:  
-Selectionsort in cpp  
+## Already working:  
+### C++:  
+* Selection sort 
 ![Selection sort gif](https://upload.wikimedia.org/wikipedia/commons/b/b0/Selection_sort_animation.gif)  
 
