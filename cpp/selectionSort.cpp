@@ -11,9 +11,7 @@ std::vector<int> SelectionSort::sort(std::vector<int> unsortedArr){
 	int iof = 0; //Index of smallest
 
 	while(input.size()>0){
-		std::cout << "while loop\n";
 		for(int i = 0; i<input.size();i++){
-			std::cout << "i:\n" << i;
 			if(input.at(i)<=input.at(iof)){
 				iof = i;	
 			}		
