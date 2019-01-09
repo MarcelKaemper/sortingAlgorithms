@@ -6,10 +6,7 @@
 
 int main(){
 	SelectionSort ss; 
-	std::vector<int> vect;
-	vect.push_back(1);
-	vect.push_back(5);
-	vect.push_back(3);
+	std::vector<int> vect = {1,2,3,4};
 
 	ss.sort(vect);
 	
