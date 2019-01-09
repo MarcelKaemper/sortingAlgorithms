@@ -21,9 +21,8 @@ std::vector<int> SelectionSort::sort(std::vector<int> unsortedArr){
 		iof = 0;
 
 	}
-	printVector(sortedList);
 
-	return unsortedArr;
+	return sortedList;
 }
 void SelectionSort::printVector(std::vector<int> arr){
 
