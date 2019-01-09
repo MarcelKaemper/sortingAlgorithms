@@ -1,4 +1,4 @@
-# sortingAlgorithms
+# Sorting Algorithms
 Collection of a few sorting algorithms implemented in different languages  
 
 ## Already working:  
