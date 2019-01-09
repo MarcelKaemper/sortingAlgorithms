@@ -1,12 +1,11 @@
 #include <iostream>
 #include <stdio.h>
 #include <vector>
-#include <string>
 #include "selectionSort.h"
 
 int main(){
 	SelectionSort ss; 
-	std::vector<int> vect = {1,2,3,4};
+	std::vector<int> vect = {12,22,6,40};
 
 	ss.sort(vect);
 	

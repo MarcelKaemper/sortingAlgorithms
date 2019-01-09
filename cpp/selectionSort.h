@@ -6,7 +6,8 @@
 class SelectionSort{
 	public:
 		SelectionSort();
-		std::vector<int> sort(std::vector<int> arr);
+		std::vector<int> sort(std::vector<int>);
+		void printVector(std::vector<int>);
 
 	private:
 };
