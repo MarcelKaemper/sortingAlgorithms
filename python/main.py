@@ -18,10 +18,10 @@ class Sorter:
 
 	def bubbleSort(self):
 		list = self.list[:]
-		print("List:",list)
 		moves = 0
 		notDone = True
 		while notDone:
+			#print(list)
 			notDone = False
 			for i in range(len(list)):
 				if(i != len(list)-1):
@@ -30,8 +30,9 @@ class Sorter:
 						list[i] = list[i+1]
 						list[i+1] = temp
 						notDone = True
+						#break
 		return list
 
-sorter = Sorter([2,6,1,8,5])
-print(sorter.selectionSort())
+sorter = Sorter([7,3,5,4,1,6,2])
+#print(sorter.selectionSort())
 print(sorter.bubbleSort())
