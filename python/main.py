@@ -18,10 +18,9 @@ class Sorter:
 
 	def bubbleSort(self):
 		list = self.list[:]
-		moves = 0
 		notDone = True
 		while notDone:
-			#print(list)
+			print(list)
 			notDone = False
 			for i in range(len(list)):
 				if(i != len(list)-1):
@@ -33,6 +32,19 @@ class Sorter:
 						#break
 		return list
 
-sorter = Sorter([7,3,5,4,1,6,2])
+	def insertionSort(self):
+		list = self.list[:]
+
+		for i in range(1, len(list)):
+			while(i>0 and list[i] < list[i-1]):
+				temp = list[i]
+				list[i] = list[i-1]
+				list[i-1] = temp
+				i -= 1
+
+		return list	
+
+sorter = Sorter([5,4,1,2,3])
 #print(sorter.selectionSort())
-print(sorter.bubbleSort())
+#print(sorter.bubbleSort())
+print(sorter.insertionSort())
