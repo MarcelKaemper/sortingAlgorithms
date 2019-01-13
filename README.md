@@ -12,4 +12,5 @@ Collection of a few sorting algorithms implemented in different languages
 ![Bubble sort gif](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)  
 * Selection sort  
 ![Selection sort gif](https://upload.wikimedia.org/wikipedia/commons/b/b0/Selection_sort_animation.gif)  
-
+* Quick sort  
+![Quick sort gif](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)  
